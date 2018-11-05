@@ -17,7 +17,7 @@ public class TransactionAction {
 
     /*TODO Dynamically Unpack JSON Data */
 
-    private String hex_data;
+    private String data;
 
     public TransactionAction() {
 
@@ -47,12 +47,12 @@ public class TransactionAction {
         this.authorization = authorization;
     }
 
-    public String getHex_data() {
-        return hex_data;
+    public String setData() {
+        return data;
     }
 
-    public void setHex_data(String hex_data) {
-        this.hex_data = hex_data;
+    public void getData(String data) {
+        this.data = data;
     }
 
 }
