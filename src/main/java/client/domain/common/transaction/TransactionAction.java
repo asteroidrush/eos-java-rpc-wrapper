@@ -47,11 +47,11 @@ public class TransactionAction {
         this.authorization = authorization;
     }
 
-    public String setData() {
+    public String getData() {
         return data;
     }
 
-    public void getData(String data) {
+    public void setData(String data) {
         this.data = data;
     }
 
